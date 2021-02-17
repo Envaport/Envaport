@@ -92,6 +92,11 @@ img{
     transition: ease-in-out 0.5s;
 }
 
+.enlaces-header>a:hover{
+    color: #de2227;
+    transition: color .5s;
+}
+
 .nav .enlaces-header a {
     color: #5D6678;
     text-decoration: none;
@@ -197,7 +202,7 @@ img{
 .articulo>i {
     font-size: 30px;
     color: #fff;
-    background: #1FDE82;
+    background: #de2227;
     display: inline-block;
     width: 70px;
     height: 70px;
@@ -402,14 +407,14 @@ footer {
 
 
 .partFooter a:hover {
-    color: #1FDE82;
+    color: #de2227;
 }
 
 .partFooter img {
     width: 70%;
 }
 
-.social-media i {
+.social-media a {
     font-size: 20px;
     display: inline-block;
     color: #adb6c7;
@@ -419,16 +424,10 @@ footer {
     height: 38px;
     line-height: 36px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     transition: all ease-in-out .3s;
     margin-right: 5px;
-}
-
-.social-media i:hover {
-    color: #fff;
-    background-color: #1FDE82;
-    border-color: #1FDE82;
 }
 
 /* Breakpoints responsive */
@@ -612,5 +611,9 @@ footer {
     .partFooter {
         width: 95%;
         margin-bottom: 40px;
+    }
+
+    .partFooter img {
+        width: 25%;
     }
 }
