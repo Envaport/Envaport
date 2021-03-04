@@ -438,6 +438,7 @@ footer {
     }
 
     .contenido-header {
+        padding: 50px;
         flex-direction: column;
         justify-content: space-evenly;
         height: 720px;
